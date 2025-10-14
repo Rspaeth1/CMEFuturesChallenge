@@ -26,7 +26,7 @@ The CME University Trading Challenge is an annual futures trading competition th
 - Trained on TimeSeriesSplit cross validation folds to isolate each front month contract
 - Tested training linear models on log squared residuals for diffusion estimation, later moved to GARCH models on residuals, finding APARCH to be the best fit
 - Created backtesting functionality that emulates rules of the competition for each individual contract, later moved to vectorized version to trade on all contracts at once (and to significantly improve testing speed)
-- Tried numerous portfolio allocation techniques including continuous Kelly criterion / Merton portfolio optimization (extends from Markowitz portfolio optimization in the multi-asset case)
+- Tried numerous portfolio allocation techniques including continuous Kelly criterion / Merton portfolio optimization (log growth maximization in the continuous case)
 - Adjusted drift in log returns for GBM adjustment (+ 1/2sigma^2 in the normal assumption)
 - Graphed various metrics and displayed performance on out of sample testing
 - Grid searched on hyperparameters in the test set (further confidence could have been gained by separating into a test set and validation set)
