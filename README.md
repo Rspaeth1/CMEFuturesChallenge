@@ -13,7 +13,7 @@ The CME University Trading Challenge is an annual futures trading competition th
 - *scipy/sklearn*: For linear models and feature pruning
 - *arch*: For GARCH models
 - *yfinance/pandas-datareader*: For data download
-- *ploty*: For graphing information (preferred to matplotlib because it allows for hovering on info and zooming in natively)
+- *plotly*: For graphing information (preferred to matplotlib because it allows for hovering on info and zooming in natively)
 
 ## Methodology
 - Bought continuous front month futures contract data for several tickers (Data from Kibot)
