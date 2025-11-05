@@ -8,6 +8,12 @@ The CME University Trading Challenge is an annual futures trading competition th
 - $1000 penalty per day where at least 10 contracts were not traded
 - Account lockout for the rest of the trading day if a 20% loss was experienced
 
+## Results
+-Place: 153/615
+-Final balance: $1,172,838.75
+-Return: 17.28% over 1 month
+-Overall, I consider this a great performance given there were a lot of swings in the market over this time and we performed exceptionally well using a systematic trading strategy. The structure of this competition highly encourages excessive risk taking, which this model was not designed for, but it performed well nonetheless. I will have to gather some information to analyze sharpe ratio and other metrics for better insight on performance.
+
 ## Libraries Used
 - *numpy/pandas*: For data processing, handling, and analysis
 - *scipy/sklearn*: For linear models and feature pruning
