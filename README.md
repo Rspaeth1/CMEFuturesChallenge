@@ -9,7 +9,7 @@ The CME University Trading Challenge is an annual futures trading competition th
 - Account lockout for the rest of the trading day if a 20% loss was experienced
 
 ## Results
-- Place: 153/615  
+- Place: 99/615  
 - Final balance: $1,172,838.75  
 - Return: 17.28% over 1 month
   
